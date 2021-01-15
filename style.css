@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+section {
+    background-image: linear-gradient(to bottom, #236ccc, white);
+    margin-top: 60px;
+}
+header {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    background-color:white;
+    width: 100%;
+    color: #236ccc;
+}
+header img {
+    height:40px;
+    display:block;
+    float:left;
+    margin: 5px;
+}
+header h3 {
+    display:block;
+    float:left;
+    margin-left: 20px;
+    padding: 0;
+    text-align: center;
+}
+.menu {
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    padding: 0;
+    transition: width 1s;
+}
+.menu:hover {
+    width: 1100px;
+}
+.menu a {
+    display:inline-block;
+    margin:0;
+    padding:21px;
+    text-decoration: none;
+    background-color: white;
+}
+.menu a:visited {
+    color: #236ccc;
+}
+.menu a:hover {
+    background-color: #236ccc;
+    color:white;
+}
+.menu img {
+    height: 40px;
+    float: left;
+    padding: 10px;
+    margin: 0;
+    margin-right: 50px;
+}
+.menu img:hover {
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#activePage {
+    background-color: #236ccc;
+    color:white;
+}
+.table {
+    font-size: larger;
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table tr, .table th, .table td {
+    padding: 20px;
+    border: 2px solid black;
+}
+.title {
+    font-size: xx-large;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+form a {
+    text-decoration: none;
+}
+.table2 {
+    margin: auto;
+}
+.table2 td {
+    padding-right: 10px;
+}
